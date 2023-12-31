@@ -18,6 +18,7 @@ public class ExtraHand {
     @SidedProxy(clientSide = "com.ExtraHand.extrahand.ClientProxy", serverSide = "com.ExtraHand.extrahand.CommonProxy")
     public static CommonProxy proxy;
 
+
     @Mod.EventHandler
     // preInit "Run before anything else. Read your config, create blocks, items, etc, and register them with the
     // GameRegistry." (Remove if not needed)
